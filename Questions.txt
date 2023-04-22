@@ -1,0 +1,4 @@
+-Difference between global and window object
+-Why node dont support global object 
+-what is module?
+-require() method
