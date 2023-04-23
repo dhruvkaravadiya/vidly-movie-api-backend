@@ -2,3 +2,4 @@
 -Why node dont support global object 
 -what is module?
 -require() method
+-module wrapper function

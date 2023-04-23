@@ -10,10 +10,9 @@ function log(message){
 module.exports.log = log;
 
 //exports only 'log' function
-module.exports = log
+// module.exports = log
 
 //not necessary to export all things inside of a module , 
 //but can export all if needed
-//--------------------------------------------------------
 
 
