@@ -20,7 +20,7 @@ logger.log(logger);
 logger.log("Message from logger object")
 //-------------------------------------------------------------
 
-//to print module warpper function 
+//to print module wrapper function 
 //var c=;
 //console.log(c) at the first line of .js file
 //arguments of module wrapper function : exports,require,module,__filename,__dirname

@@ -1,5 +1,10 @@
+-------------------------Modules------------------------------
 -Difference between global and window object
 -Why node dont support global object 
 -what is module?
 -require() method
 -module wrapper function
+-list basic build in modules in node
+
+-middleware use
+=to modify the req and res objects, and then compile and execute any code that is required
