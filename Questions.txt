@@ -8,3 +8,21 @@
 
 -middleware use
 =to modify the req and res objects, and then compile and execute any code that is required
+=it terminates the request , response cycle or passes the control to another middleware
+
+-request processing pipeline
+=contains one or more middleware function
+
+
+=what is a promise?
+-It's an object which holds the 'Eventual' result of an asynchronous operation/function
+
+
+
+
+404 - Requested Item Not Found
+400 - 
+500 - Server Error
+
+
+- Normalization vs Denormalization

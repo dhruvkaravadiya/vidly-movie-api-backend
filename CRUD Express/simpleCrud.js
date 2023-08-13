@@ -7,9 +7,11 @@ const apps = [
   { id: 3, name: "name 3" },
 ];
 
-//Middleware to parse json
+//Middleware function app.use 
+//which return a middleware express.json() 
+//which parses the body of the request if the body has json object
+//and set / populate req.body property
 app.use(express.json());
-
 // getAll method
 app.get("/api/apps", (req, res) => {
   res.send(apps);

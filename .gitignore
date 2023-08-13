@@ -1,1 +1,6 @@
 node_modules
+MiddleWares
+package-lock.json
+package.json
+vidly/node_modules
+public
