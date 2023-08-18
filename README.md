@@ -9,6 +9,7 @@ With technologies like Node.js and Express.js, along with powerful database tool
 
 To streamline your development process, comprehensive API documentation is generated using Swagger, aiding both developers and potential users in understanding endpoints and payloads. And for deployment simplicity, the project can be containerized using Docker.
 
+
 ## Features
 1. **User Authentication and Authorization**: Implement secure user registration and login functionality using JSON Web Tokens (JWT) for authorization.
 
@@ -59,17 +60,71 @@ To streamline your development process, comprehensive API documentation is gener
 
 15. **Dockerization**: Containerize the application using Docker for simplified deployment and management.
 
+
 ## Technologies Used
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
 - JSON Web Tokens (JWT)
-- Swagger (for API documentation)
 - Docker (for containerization)
 - ...
 
+
 ## Installation
-1. Clone the repository:
-git clone <repository-url>
-cd vidly-backend
+1. Clone the repository: 
+   ```
+   git clone <repository-url>
+   cd vidly-backend
+   ```
+2. Install dependencies: 
+   ```
+   npm install
+   ```
+3. Set up environment variables in the .env file in the project root:
+   ```
+   PORT=<port-number>
+   DATABASE_URL=<mongodb-connection-url>
+   SECRET_KEY=<your-secret-key>
+   ```
+
+## Usage
+1. Start the server
+   ```
+   npm start
+   ```
+2. ccess the API at: http://localhost:<port>/api
+
+
+## API Endpoints
+Movies
+
+| Request Type | Endpoint          | Description                         |
+|--------------|-------------------|-------------------------------------|
+| GET          | /api/movies       | Get a list of all movies.          |
+| GET          | /api/movies/:id   | Get details of a specific movie.   |
+| POST         | /api/movies       | Add a new movie.                   |
+| PUT          | /api/movies/:id   | Update details of a movie.        |
+| DELETE       | /api/movies/:id   | Delete a movie.                    |
+
+
+Customers
+
+| Request Type | Endpoint          | Description                             |
+|--------------|-------------------|-----------------------------------------|
+| GET          | /api/customers    | Get a list of all customers.           |
+| GET          | /api/customers/:id| Get details of a specific customer.    |
+| POST         | /api/customers    | Add a new customer.                   |
+| PUT          | /api/customers/:id| Update details of a customer.         |
+| DELETE       | /api/customers/:id| Delete a customer.                    |
+
+
+Rentals
+
+| Request Type | Endpoint          | Description                         |
+|--------------|-------------------|-------------------------------------|
+| GET          | /api/rentals      | Get a list of all rentals.          |
+| GET          | /api/rentals/:id  | Get details of a specific rental.   |
+| POST         | /api/rentals      | Add a new rental.                   |
+| PUT          | /api/rentals/:id  | Update details of a rental.        |
+| DELETE       | /api/rentals/:id  | Delete a rental.                    |
