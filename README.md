@@ -93,7 +93,7 @@ To streamline your development process, comprehensive API documentation is gener
    ```
    npm start
    ```
-2. ccess the API at: http://localhost:<port>/api
+2. Access the API at: 'http://localhost:<port>/api'
 
 
 ## API Endpoints
@@ -128,3 +128,30 @@ Rentals
 | POST         | /api/rentals      | Add a new rental.                   |
 | PUT          | /api/rentals/:id  | Update details of a rental.        |
 | DELETE       | /api/rentals/:id  | Delete a rental.                    |
+
+
+### Authentication
+
+For authentication, the application uses JSON Web Tokens (JWT) to ensure secure user access to various endpoints.
+
+### Contributing
+
+Contributions to this project are greatly appreciated. If you would like to contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m "Add your message here"`
+4. Push your changes to your fork: `git push origin feature-name`
+5. Create a pull request to the original repository.
+
+### License
+
+This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE) file.
+
+### Contact
+
+For questions or inquiries, feel free to contact [your-name] at [your-email]. We appreciate your interest and look forward to your feedback.
+
+---
+
+Remember to replace `[your-name]` and `[your-email]` with your actual name and email address. This will complete the sections you provided and offer users more information about authentication, contributing, licensing, and how to get in touch with you.
