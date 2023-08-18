@@ -1,7 +1,13 @@
 # Vidly Movie API Backend
 
 ## Overview
-Welcome to the "Vidly" movie rental application backend built using Node.js, Express.js, and MongoDB. This project provides a complete backend solution for managing movie rentals, customers, and more. Inspired by Mosh Hamedani's course on "Programming with Mosh," this backend implements a wide range of features to handle various aspects of the movie rental process.
+Welcome to the "Vidly" movie rental application backend, powered by Node.js, Express.js, and MongoDB. This project offers a comprehensive backend solution designed to manage movie rentals, customer interactions, and other essential aspects of a modern movie rental service.
+
+Built with a focus on robustness and scalability, this backend provides a range of features that enable efficient management of movies, customers, rentals, and more. Whether you're building a new movie rental platform or looking to enhance an existing one, our backend offers the tools you need to create a seamless and user-friendly experience.
+
+With technologies like Node.js and Express.js, along with powerful database tools such as MongoDB and Mongoose, this backend ensures efficient data storage and retrieval. User authentication and authorization are implemented using JSON Web Tokens (JWT), ensuring secure access to your application.
+
+To streamline your development process, comprehensive API documentation is generated using Swagger, aiding both developers and potential users in understanding endpoints and payloads. And for deployment simplicity, the project can be containerized using Docker.
 
 ## Features
 1. **User Authentication and Authorization**: Implement secure user registration and login functionality using JSON Web Tokens (JWT) for authorization.
